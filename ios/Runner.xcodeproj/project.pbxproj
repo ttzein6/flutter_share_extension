@@ -13,22 +13,8 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		ACC608D40BDE6C90E1FD3A35 /* Pods_extensionXCodecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401C6909294F8D246E9DCC79 /* Pods_extensionXCodecode.framework */; };
-		B7F8646B2912A6C40089CCFA /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8646A2912A6C40089CCFA /* ShareViewController.swift */; };
-		B7F8646E2912A6C40089CCFA /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F8646C2912A6C40089CCFA /* MainInterface.storyboard */; };
-		B7F864722912A6C40089CCFA /* extensionXCodecode.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B7F864682912A6C40089CCFA /* extensionXCodecode.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EA56AC1F50CD6EFC6F91DBC7 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4EEA29DB641576483CE024 /* Pods_Runner.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B7F864702912A6C40089CCFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B7F864672912A6C40089CCFA;
-			remoteInfo = extensionXCodecode;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		9705A1C41CF9048500538489 /* Embed Frameworks */ = {
@@ -47,7 +33,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				B7F864722912A6C40089CCFA /* extensionXCodecode.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,11 +64,6 @@
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7AACE52291166FB00FE7683 /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
-		B7F864682912A6C40089CCFA /* extensionXCodecode.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = extensionXCodecode.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7F8646A2912A6C40089CCFA /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		B7F8646D2912A6C40089CCFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		B7F8646F2912A6C40089CCFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7F864772912A85F0089CCFA /* extensionXCodecode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = extensionXCodecode.entitlements; sourceTree = "<group>"; };
 		C5AEFA9AB8D5619EADE282E8 /* Pods-Share Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Share Extension.debug.xcconfig"; path = "Target Support Files/Pods-Share Extension/Pods-Share Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		D2E8D5A213ACA01899FF3A9C /* Pods_Share_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Share_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,14 +74,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA56AC1F50CD6EFC6F91DBC7 /* Pods_Runner.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7F864652912A6C40089CCFA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACC608D40BDE6C90E1FD3A35 /* Pods_extensionXCodecode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +122,6 @@
 			children = (
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
-				B7F864692912A6C40089CCFA /* extensionXCodecode */,
 				97C146EF1CF9000F007C117D /* Products */,
 				5549CA7C3DDFE7B2183CBC6E /* Pods */,
 				49BE7942F9F312DAD3CADD5D /* Frameworks */,
@@ -161,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				97C146EE1CF9000F007C117D /* Runner.app */,
-				B7F864682912A6C40089CCFA /* extensionXCodecode.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,17 +150,6 @@
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
 			);
 			path = Runner;
-			sourceTree = "<group>";
-		};
-		B7F864692912A6C40089CCFA /* extensionXCodecode */ = {
-			isa = PBXGroup;
-			children = (
-				B7F864772912A85F0089CCFA /* extensionXCodecode.entitlements */,
-				B7F8646A2912A6C40089CCFA /* ShareViewController.swift */,
-				B7F8646C2912A6C40089CCFA /* MainInterface.storyboard */,
-				B7F8646F2912A6C40089CCFA /* Info.plist */,
-			);
-			path = extensionXCodecode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,30 +172,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				B7F864712912A6C40089CCFA /* PBXTargetDependency */,
 			);
 			name = Runner;
 			productName = Runner;
 			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B7F864672912A6C40089CCFA /* extensionXCodecode */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B7F864732912A6C40089CCFA /* Build configuration list for PBXNativeTarget "extensionXCodecode" */;
-			buildPhases = (
-				EB0B5B9D35A8801CFE10E77E /* [CP] Check Pods Manifest.lock */,
-				B7F864642912A6C40089CCFA /* Sources */,
-				B7F864652912A6C40089CCFA /* Frameworks */,
-				B7F864662912A6C40089CCFA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = extensionXCodecode;
-			productName = extensionXCodecode;
-			productReference = B7F864682912A6C40089CCFA /* extensionXCodecode.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -251,9 +191,6 @@
 					97C146ED1CF9000F007C117D = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 1100;
-					};
-					B7F864672912A6C40089CCFA = {
-						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
@@ -271,7 +208,6 @@
 			projectRoot = "";
 			targets = (
 				97C146ED1CF9000F007C117D /* Runner */,
-				B7F864672912A6C40089CCFA /* extensionXCodecode */,
 			);
 		};
 /* End PBXProject section */
@@ -285,14 +221,6 @@
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7F864662912A6C40089CCFA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7F8646E2912A6C40089CCFA /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,28 +294,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB0B5B9D35A8801CFE10E77E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-extensionXCodecode-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -400,23 +306,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7F864642912A6C40089CCFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7F8646B2912A6C40089CCFA /* ShareViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B7F864712912A6C40089CCFA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B7F864672912A6C40089CCFA /* extensionXCodecode */;
-			targetProxy = B7F864702912A6C40089CCFA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
@@ -433,14 +323,6 @@
 				97C147001CF9000F007C117D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		B7F8646C2912A6C40089CCFA /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7F8646D2912A6C40089CCFA /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -685,120 +567,6 @@
 			};
 			name = Release;
 		};
-		B7F864742912A6C40089CCFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 415196D7CC2151A4AFE2D5B4 /* Pods-extensionXCodecode.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = extensionXCodecode/extensionXCodecode.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = extensionXCodecode/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = extensionXCodecode;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.share_media.extensionXCodecode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B7F864752912A6C40089CCFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 728F2DF0746907B881305C14 /* Pods-extensionXCodecode.release.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = extensionXCodecode/extensionXCodecode.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = extensionXCodecode/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = extensionXCodecode;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MTL_FAST_MATH = YES;
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.share_media.extensionXCodecode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B7F864762912A6C40089CCFA /* Profile */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08D56EA225C46216247074D2 /* Pods-extensionXCodecode.profile.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = extensionXCodecode/extensionXCodecode.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = extensionXCodecode/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = extensionXCodecode;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MTL_FAST_MATH = YES;
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.share_media.extensionXCodecode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Profile;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -818,16 +586,6 @@
 				97C147061CF9000F007C117D /* Debug */,
 				97C147071CF9000F007C117D /* Release */,
 				249021D4217E4FDB00AE95B9 /* Profile */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B7F864732912A6C40089CCFA /* Build configuration list for PBXNativeTarget "extensionXCodecode" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B7F864742912A6C40089CCFA /* Debug */,
-				B7F864752912A6C40089CCFA /* Release */,
-				B7F864762912A6C40089CCFA /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
